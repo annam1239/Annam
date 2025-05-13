@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int one,two,s,q,m;
+    s = one+two;
+    q = one/two;
+    m =one*two;
+    printf("enter first positive integer:");
+    scanf("%d",&one);
+    printf("enter second positive integer:");
+    scanf("%d",&two);
+    printf("the addition of %d and %d is %d",one,two,s);
+    printf("the integer division of by %d is %d",one,two,q);
+    printf("the multiplication of %d and %d is %d",&one,&two,m);
+    return 0;
+}
