@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int a = 10,b = 40,c;
+    printf("before swapa =%d b =%d",a,b);
+    c = a;
+    a = b;
+    b = c;
+    printf("after swapa =%d b =%d",a,b);
+}
