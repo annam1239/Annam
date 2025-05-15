@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+    int num,result=0,reminder,original;
+    printf("entrer the number ");
+    scanf("%d",&num);
+    original=num;
+    while(num!=0){
+        reminder=num%10;
+        result +=reminder*reminder*reminder;
+        num/=10;
+    }
+    if(result==original){
+        printf(" %dis an armstrong.\n",original);
+        
+    }
+    else {
+        printf("%d is an armstrong.\n",original);
+        
+    }
+}
